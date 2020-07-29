@@ -1,0 +1,11 @@
+<!--pages/new/new.wxml-->
+<text>pages/new/new.wxml</text>
+<view class="box" hover-class="hoverbox">test
+  <view class="item" hover-class="hoveritem" hover-stop-propagation>view2
+  </view>
+</view>
+<view>
+<navigator class="link" url="/pages/index/index" open-type="redirect">跳转到index</navigator>
+</view>
+<image src="/assets/index-active.png" mode="widthFix"></image>
+<text></text>

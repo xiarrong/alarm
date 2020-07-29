@@ -9,6 +9,13 @@
   padding: 20rpx;
 }
 
+.confirm {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30rpx;
+  padding: 20rpx;
+}
+
 .header .plus {
   width: 41rpx;
   height: 41rpx;
@@ -16,6 +23,11 @@
 }
 
 .header .new-todo {
+  flex: 1;
+  font-size: 28rpx;
+}
+
+.header .new-date {
   flex: 1;
   font-size: 28rpx;
 }
@@ -42,7 +54,13 @@
 }
 
 .todos .item .name {
-  flex: 1;
+  flex: auto;
+  font-size: 30rpx;
+  color: #444;
+}
+
+.todos .item .ddl {
+  flex: auto;
   font-size: 30rpx;
   color: #444;
 }

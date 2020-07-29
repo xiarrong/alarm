@@ -25,6 +25,11 @@
   width: 70%;
   color: #aa0;
 }
+.ddl {
+  display: inline-block;
+  width: 70%;
+  color: #aa0;
+}
 
 .action {
   display: inline-block;
